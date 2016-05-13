@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.net.Uri;
+import android.os.Environment;
 
 import java.io.File;
 
@@ -42,7 +43,8 @@ public class MyUtils {
         //添加默认分类
         intent.addCategory(Intent.CATEGORY_DEFAULT);
         //设置数据和类型
-        intent.setDataAndType(Uri.fromFile(new File("/mnt/sdcard/mobilesafer3612.0.apk")), "application/vnd.android.package-archive");
+        String targetPath = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS).getPath() + File.separator + "mobilesafer3612.0.apk";
+        intent.setDataAndType(Uri.fromFile(new File(targetPath)), "application/vnd.android.package-archive");
         //如果开启的Activity退出时会调用当前Activity的onActivityResult
         activity.startActivityForResult(intent, 0);
     }
