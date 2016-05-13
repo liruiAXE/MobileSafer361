@@ -24,6 +24,7 @@
         android:shadowDx="1"
         android:shadowDy="1"
         android:shadowRadius="2"
+        android:paddingTop="15dp"
         android:text="版本号 1.0"
         android:textColor="#a2a2a2"
         android:textSize="16sp" />
