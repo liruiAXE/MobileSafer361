@@ -8,4 +8,11 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="dialog_custom" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item><!--去掉边框-->
+        <item name="android:windowFrame">@null</item><!--无标题栏-->
+        <item name="android:background">#00000000</item><!--背景颜色为黑色透明-->
+        <item name="android:windowBackground">@android:color/transparent</item><!--对话框背景透明-->
+    </style>
+
 </resources>
