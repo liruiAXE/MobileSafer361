@@ -52,7 +52,7 @@
                 style="@style/textview16sp"
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="10dp"
-                android:drawableLeft="@drawable/security_phone"
+                android:drawableLeft="@mipmap/security_phone"
                 android:drawablePadding="10dp"
                 android:textColor="@color/purple"/>
 
