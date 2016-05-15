@@ -14,31 +14,31 @@
 
         <RadioButton
             android:id="@+id/firstRadioButton"
-            android:layout_width="20dp"
-            android:layout_height="20dp"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
             android:background="@drawable/circle_purple_bg_selector"
             android:button="@null"/>
 
         <RadioButton
             android:id="@+id/secondRadioButton"
-            android:layout_width="20dp"
-            android:layout_height="20dp"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
             android:layout_marginLeft="15dp"
             android:background="@drawable/circle_purple_bg_selector"
             android:button="@null"/>
 
         <RadioButton
             android:id="@+id/thirdRadioButton"
-            android:layout_width="20dp"
-            android:layout_height="20dp"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
             android:layout_marginLeft="15dp"
             android:background="@drawable/circle_purple_bg_selector"
             android:button="@null"/>
 
         <RadioButton
             android:id="@+id/fourthRadioButton"
-            android:layout_width="20dp"
-            android:layout_height="20dp"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
             android:layout_marginLeft="15dp"
             android:background="@drawable/circle_purple_bg_selector"
             android:button="@null"/>
